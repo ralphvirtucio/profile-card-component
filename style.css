@@ -9,3 +9,63 @@
 html {
   font-size: 62.5%;
 }
+
+body {
+  /* background-color: hsla(185, 75%, 39%, 0.986); */
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main-container {
+  max-width: 30rem;
+  margin: 20rem auto;
+}
+
+.card-container {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 35rem;
+}
+
+.header {
+  background-color: hsl(185, 75%, 39%);
+  width: 35rem;
+  height: 11rem;
+  margin-bottom: 4rem;
+  padding-top: 6rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.profile-picture {
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: inset 0 0 0 8px #fff;
+}
+.content {
+  background-color: #fff;
+  width: 35rem;
+  padding: 3rem;
+}
+.profile-name {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+.profile-age {
+  color: hsl(0, 0%, 59%);
+  margin-left: 0.5rem;
+}
+.profile-address {
+  margin-bottom: 5rem;
+  color: hsl(0, 0%, 59%);
+}
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.profile-stat div {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
