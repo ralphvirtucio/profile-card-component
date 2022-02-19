@@ -14,14 +14,14 @@ body {
   background-image: url(images/bg-pattern-top.svg),
     url(images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
-  background-position: bottom 400px left 100px, top 400px left 1160px;
+  background-position: bottom 400px left -50px, top 450px left 980px;
   background-color: hsl(185, 75%, 39%);
   font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container {
   max-width: 35rem;
-  margin: 30rem 85rem 30rem auto;
+  margin: 30rem auto 30rem auto;
   background-color: #fff;
   text-align: center;
   border-radius: 10px;
